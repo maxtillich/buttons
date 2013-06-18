@@ -1,0 +1,168 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	height: 115%;
+}
+
+h1 {
+	text-align: center;
+	color: #222;
+	font-weight: 600;
+	margin-top: 52px;
+	margin-bottom: 0px 
+}
+
+.hug {
+	position: relative;
+	padding: 50px 0;
+}
+
+.btn {
+	position: absolute;
+	left: 50%;
+	margin-left: -78px;
+
+	display: inline-block;
+	border-radius: 3px;
+	padding: 17px 53px;
+
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+	font-weight: 600;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.07);
+	text-decoration: none;
+
+	background-image: -webkit-linear-gradient(top, #68affd, #5591d3);
+}
+
+	.btn:hover {
+		background-image: -webkit-linear-gradient(top, #8bc2ff, #5590d2);
+	}
+
+	.btn:active {
+		background-image: -webkit-linear-gradient(top, #5490d2, #68aefd);
+	}
+
+.flat {
+	text-shadow: none;
+
+	background-image: none;
+	background: #5490d2;
+
+	border-radius: 0;
+}
+
+	.flat:hover {
+		background-image: none;
+		background: #61a4ef;
+	}
+
+	.flat:active {
+		background-image: none;
+		background: #477ab1;
+	}
+
+.shadow {
+	box-shadow: 0 6px 0 #444;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+}
+
+	.shadow:active {
+		margin-top: 4px;
+		box-shadow: 0 2px 0 #222;
+		text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+	}
+
+.jump-1 {
+	left: 30%;
+	margin-top: 70px;
+}
+
+.jump-2 {
+	left: 90%;
+	margin-top: -30px;
+}
+
+.jump-3 {
+	left: 40%;
+	margin-top: -40px;
+}
+
+.jump-4 {
+	left: 10%;
+	margin-top: 110px;
+}
+
+.shrink-0 {
+	border-radius: 0;
+}
+
+.shrink-1 {
+	text-indent: -9999px;
+	width: 47px;
+	height: 47px;
+	border-radius: 0;
+	margin-left: -25px;
+	padding: 0;
+}
+
+.shrink-2 {
+	text-indent: -9999px;
+	width: 4px;
+	height: 4px;
+	border-radius: 0;
+	margin-left: -2px;
+	margin-top: 14px;
+	padding: 0;
+}
+
+.heart-0 {
+	border-radius: 49px;
+}
+
+.heart-1 {
+	text-indent: -9999px;
+	width: 47px;
+	height: 47px;
+	margin-left: -25px;
+	padding: 0;
+	border-radius: 49px;
+}
+
+.heart-2 {
+	text-indent: -9999px;
+	width: 50px;
+	height: 46px;
+	border-radius: 0;
+	margin-left: -25px;
+	margin-top: 1px;
+	padding: 0;
+	background: transparent url('heart.png') no-repeat center;
+}
+
+.heart-2:hover {
+	background: transparent url('heart-hover.png') no-repeat center;
+}
+
+.heart-2:active {
+	background: transparent url('heart-active.png') no-repeat center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
