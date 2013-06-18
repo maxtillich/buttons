@@ -20,6 +20,8 @@ h1 {
 }
 
 .btn {
+	cursor: pointer;
+
 	position: absolute;
 	left: 50%;
 	margin-left: -78px;
@@ -66,7 +68,8 @@ h1 {
 	}
 
 .shadow {
-	box-shadow: 0 6px 0 #444;
+	box-shadow: 0 6px 0 #444, inset 0 -1px 2px rgba(255,255,255,0.2);
+
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
 }
 
